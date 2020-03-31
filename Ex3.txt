@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+public class Media{
+    public static void main(String ... args){
+        double num, soma = 0;
+        int cont = 0;
+        
+        do{
+            System.out.println("Digite um número");
+            num = ent.nextDouble(); 
+            
+            if(num >= 0){ 
+                soma = num + soma; 
+                cont++;
+            }
+        } while(num >= 0);
+        
+        System.out.println("A média é " + soma / cont); 
+    }
+}
+
+https://github.com/Hen143/Semana5.git

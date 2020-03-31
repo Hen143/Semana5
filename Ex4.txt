@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+public class Contagem{
+    public static void main (String ... args){
+        int qtde=0;
+        int valor = Integer.parseInt(JOptionpane.showInputDialog("Digite um numero"));
+        while (valor!=0) {
+            if ((valor>100) && (valor<200)) {
+                qtde=qtde+1;
+                
+            }
+            qtde = valor 
+            
+        }
+        JOptionPane.showMessageDialog("Foram digitados %d valores no intervalo.", qtde);
+        
+    }
+}
+
+https://github.com/Hen143/Semana5.git
